@@ -1,0 +1,18 @@
+import NextAuth from "next-auth";
+import GoogleProvider from "next-auth/providers/google";
+import PostgresAdapter from "@auth/pg-adapter";
+import { Pool } from 'pg';
+
+const pool = new Pool({
+    connectionString: process.env.POSTGRES_URL + "?sslmode=require",
+});
+
+export default NextAuth({
+  providers: [
+    GoogleProvider({
+      clientId: process.env.GOOGLE_ID,
+      clientSecret: process.env.GOOGLE_SECRET,
+    }),
+  ],
+  adapter: PostgresAdapter(pool),
+});
