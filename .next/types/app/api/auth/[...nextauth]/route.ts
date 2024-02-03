@@ -1,4 +1,4 @@
-// File: /Users/yanyu/Downloads/nextauthtesting/app/api/auth/[...nextauth]/route.ts
+// File: /Users/yanyu/Downloads/nextauthtesting/app/api/auth/[...nextauth]/route.js
 import * as entry from '../../../../../../app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 
