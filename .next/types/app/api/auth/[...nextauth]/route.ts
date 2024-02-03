@@ -1,8 +1,8 @@
 // File: /Users/yanyu/Downloads/nextauthtesting/app/api/auth/[...nextauth]/route.js
-import * as entry from '../../../../../../pages/api/auth/[...nextauth]/route.js'
+import * as entry from '../../../../../../app/pages/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 
-type TEntry = typeof import('../../../../../../pages/api/auth/[...nextauth]/route.js')
+type TEntry = typeof import('../../../../../../app/pages/api/auth/[...nextauth]/route.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
