@@ -1,10 +1,5 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/api/models-posts/route": "app/api/models-posts/route.js",
-  "/api/login/route": "app/api/login/route.js",
-  "/api/register/route": "app/api/register/route.js",
-  "/api/models-auth/route": "app/api/models-auth/route.js",
+  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
