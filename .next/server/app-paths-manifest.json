@@ -1,10 +1,10 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/api/models-auth/route": "app/api/models-auth/route.js",
-  "/api/models-posts/route": "app/api/models-posts/route.js",
   "/api/login/route": "app/api/login/route.js",
+  "/api/models-posts/route": "app/api/models-posts/route.js",
   "/api/register/route": "app/api/register/route.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/page": "app/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/models-auth/route": "app/api/models-auth/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }
