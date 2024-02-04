@@ -5,7 +5,7 @@ import CredentialsProvider from "next-auth/providers/credentials"
 import { PrismaAdapter } from "@next-auth/prisma-adapter"
 import { prisma }from "../../../../server/db/client"
 
-export const authOptions = {
+ const authOptions = {
   // Configure one or more authentication providers
   session: {strategy: "jwt"},
   debug: true,
